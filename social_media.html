@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="social_media.css"/>
+<html lang="en">
+<head>
+    <script type="text/javascript" src="social_media.js"></script>
+    <script src="https://kit.fontawesome.com/35d4ca3c43.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ask.Us</title>
+</head>
+<body onload= username_get()>
+    <div class="header">
+        <div id="wrapper">
+            <div class="logo">
+                <img src="LogoInverse.png"/>
+    </div>
+    <section id="post_section">
+        <div id="post_div" class="text">
+        <img id="post_image" src="stock_user.png"/>
+        <p id="posting_user"></p>
+        <textarea id=post_text placeholder="Ask us a question!"></textarea><br>
+        <button type="button" id="submit">POST</button>
+    </section> 
+    <div id="new_div"></div>
+    <template id="post_template">
+        <section class="new_section">
+            <div class="new_div">
+                <p class="user_post"></p>
+                <img src="stock_user.png" class="new_img">
+                <p class="datetime"></p>
+                <p class="post_body"></p>
+
+                <div class="comment_div">
+                <textarea type="text" class="comment" placeholder="Leave a comment!"></textarea>
+                <button class="commentbutton">COMMENT</button>
+                <template class="comment_template">
+                        <p class="comment_user"></p>
+                        <img src="stock_user.png" class="comment_image">
+                        <p class="datetime"></p>
+                        <p class="comment_body"></p>
+            </template> 
+            </div>
+            
+        </section>
+    </template>
+
+
+
+
+</body>
+</html>

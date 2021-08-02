@@ -1,0 +1,79 @@
+
+
+* {box-sizing: border-box}
+
+/* Input feilds */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: solid 2px black;
+  background:white;
+
+}
+/* Color on select */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: rgba(0, 174, 255, 0.438);
+  outline: none;
+  border: 1px solid black;
+  
+}
+
+hr {
+  border: 1px solid darkred;
+  margin-bottom: 25px;
+}
+
+/* Set style for register button*/
+button {
+  background-color: darkred;
+  color: white;
+  padding: 18px 30px;
+  margin: 8px 0;
+  border: 5px;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color:purple;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 20px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#registerlogo {
+  transform: translate(300%,0%);
+}
+
+#alreadyhaveaccount {
+  transform: translate(0%,-175%)
+}
+
+#birthdate {
+  border: 2px solid black;
+  width: 100%
+}

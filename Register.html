@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Ask.Us</title>
+  <script type="text/javascript" src="general.js"></script>
+  <img id="registerlogo" src="askus_home_page.png">
+</head>
+<body>
+<form id="registration">
+  <div class="container">
+    <link rel="stylesheet" href="register.css" type="text/css">
+    <style type="text/css">
+    body{
+      background-color:lightgrey;
+      padding: 4px;
+    }
+    
+    </style>
+    <p>Please fill in this form to create an account.</p>
+    <hr>
+
+    <label for="Username"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="username" id="user" required>
+    <label for="birthday"><b>Birth Date</b></label><br>
+    <input type="date" id="birthdate"><br><br>
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+    <hr>
+    <p>By creating an account you agree to our <a href="https://www.socialmediaexaminer.com/terms-of-use/">Terms & Privacy</a>.</p>
+
+    <button type="submit" class="registerbtn" onclick=register_check()>Register</button>
+  </div>
+  
+  <div class="container signin">
+    <p id="alreadyhaveaccount">Already have an account? <a href="Sign_in.html">Sign in</a>.</p>
+  </div>
+</form>
+</body>
+</html>

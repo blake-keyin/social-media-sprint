@@ -1,0 +1,66 @@
+/* Bordered form */
+form {
+    border: 1px solid #0a0a0a;
+  }
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid rgba(7, 7, 7, 0.938);
+    box-sizing: border-box;
+  }
+  
+  /* Sets the style for register button*/
+  button {
+    background-color:darkred;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  
+  
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 13px 0 13px 0;
+}
+
+/* Avatar image */
+.avatar {
+  width: 15%;
+  border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 35px;
+}
+
+/* The "Forgot password" text */
+.signup {
+  float: left;
+  padding-top: 0px;
+}
+
+
+span.Password {
+  float: left;
+}
+
+
+
+.cancelbtn {
+  width: 10%;
+}
+
+#signin_form{
+  transform: translate(0%,13%);
+
+}

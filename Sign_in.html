@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Ask.Us</title>
+<script type="text/javascript" src="social_media.js"></script>
+</head>
+<body>
+<form id="signin_form">
+    <div class="imgcontainer">
+        <script type="text/javascript" src="general.js"></script>
+        <link rel="stylesheet" href="sign_in.css" type="text/css">
+        <style type="text/css">
+        body{
+            background-color:lightgrey;
+        }
+</style>
+<img src="askus_home_page.png" class="avatar">
+</div>
+
+<div class="container">
+    <label for="user"><b>Username</b><label>
+    <input id="user" type="text" placeholder="Enter Username" name="user" required>
+
+    <label for="pass"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="pass" required>
+
+    <button type="Submit" onclick=username_set()>Login</button>
+    <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+</div>
+
+<div class="container" style="background-color:lightgrey">
+    <button type="button" class="cancel">Cancel</button>
+    <span class="Password">Forgot <a href="#">Password</a><span>
+<div>
+    <div class="signup">
+        <span class="signup">Need an account? <a href="register.html">Signup</a><span></span>
+    </div>
+        </form>
+</body>
+</html>
